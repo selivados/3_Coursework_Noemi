@@ -42,6 +42,47 @@
 		</div>
 	</header>
 	<!-- /Header -->
+	<!-- Popup -->
+	<div class="popup _hidden">
+		<div class="popup-container">
+			<h2 class="feedback-title">Ваш фидбек</h2>
+			<form class="feedback-form">
+				<div class="feedback-select-group">
+					<label>
+						<span class="feedback-select-label">Как часто вы заходите на сайт?</span>
+						<select class="feedback-select">
+							<option value="everyday">Почти каждый день</option>
+							<option value="few-times-week">Раз в несколько дней</option>
+							<option value="few-times-month">Раз в несколько недель</option>
+							<option value="few-times-year">Несколько раз в год</option>
+						</select>
+					</label>
+				</div>
+				<div class="feedback-radio-group">
+					<span class="feedback-radio-label">Вы подписаны на e-mail рассылку?</span>
+					<div class="feedback-radio-container">
+						<label class="feedback-radio">
+							<input class="feedback-radio-control" type="radio" name="subscription" checked>
+							<span class="feedback-radio-text">Да</span>
+						</label>
+						<label class="feedback-radio">
+							<input class="feedback-radio-control" type="radio" name="subscription">
+							<span class="feedback-radio-text">Нет</span>
+						</label>
+					</div>
+				</div>
+				<div class="feedback-input-group">
+					<label>
+						<span class="feedback-select-label feedback-input-label">Расскажите, какой контент вы хотели бы видеть <br> на нашем сайте?</span>
+						<textarea class="feedback-input-textarea" placeholder="Может, больше рецептов?" required></textarea>
+					</label>
+				</div>
+				<button class="subscribe-button feedback-button" type="submit">Отправить</button>
+			</form>
+			<button class="popup-close" type="button"></button>
+		</div>
+	</div>
+	<!-- /Popup -->
 	<!-- Trends -->
 	<section class="trends">
 		<h2 class="trends-title">Сейчас в тренде</h2>
