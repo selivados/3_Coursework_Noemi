@@ -18,6 +18,8 @@
 
 body {
     background-color: #ffffff;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
 }
 
 p, ul, h1, h2, h3, h4, h5, h6 {
@@ -29,22 +31,21 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .header {
     position: relative;
+    min-height: 450px;
     background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-position: center top -2px;
     background-size: cover;
-    min-height: 450px;
 }
 
 .header::after {
-    content: "";
     position: absolute;
+    content: "";
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
 }
 
 .container {
@@ -61,7 +62,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
     align-items: center;
     padding-top: 27px;
     margin-bottom: 100px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .menu-logo {
@@ -79,9 +80,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-link {
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
@@ -93,23 +92,22 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .header-title {
     position: relative;
-    font-family: "Open Sans", Arial, sans-serif;
+    width: 687px;
+    margin: 0 auto;
     font-size: 45px;
     font-weight: 700;
     line-height: 75px;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
-    width: 687px;
-    margin: 0 auto;
-    z-index: 2;
+    z-index: 1;
 }
 
 /* Popup */
 
 .popup {
-    display: flex;
     position: fixed;
+    display: flex;
     top: 0;
     left: 0;
     width: 100%;
@@ -132,8 +130,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .feedback-title {
-    display: block;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 29px;
@@ -150,15 +146,11 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .feedback-select-label, .feedback-radio-label {
     display: block;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
     color: #000000;
 }
 
 .feedback-select {
-    display: block;
-    box-sizing: border-box;
     width: 100%;
     height: 48px;
     padding: 0 27px 0 19px;
@@ -166,9 +158,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
     border: none;
     appearance: none;
     background-color: #f4f7f6;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
     color: rgba(0, 0, 0, 0.54);
     background-image: url(../svg/form-arrows.svg);
     background-repeat: no-repeat;
@@ -197,16 +187,16 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .feedback-radio-text::before {
-    content: "";
     display: inline-block;
+    content: "";
     vertical-align: middle;
     width: 18px;
     height: 18px;
+    margin-right: 5px;
     background-image: url(../svg/form-empty-circle.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 18px;
-    margin-right: 5px;
 }
 
 .feedback-radio-control:checked + .feedback-radio-text::before {
@@ -214,9 +204,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .feedback-radio-text {
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
     color: #000000;
 }
 
@@ -245,9 +233,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
     border: none;
     background-color: #f4f7f6;
     appearance: none;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
     line-height: 16px;
     color: rgba(0, 0, 0, 0.54);
 }
@@ -280,24 +266,21 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 /* Сейчас в тренде */
 
 .trends {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 55px;
 }
 
 .trends-title, .shop-title {
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 29px;
     text-transform: uppercase;
+    text-align: center;
     color: #0f0d0e;
 }
 
 .trends-title::after, .shop-title::after, .feedback-title::after {
-    content: "";
     display: block;
+    content: "";
     width: 66px;
     margin: 7px auto 0;
     border-top: 3px solid rgba(181, 159, 91, 0.4);
@@ -311,14 +294,14 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .trend {
-    display: flex;
     position: relative;
+    display: flex;
     flex-direction: column;
     flex-basis: calc(25% - 3px);
+    min-height: 320px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 320px;
 }
 
 .trend-image1 {
@@ -338,21 +321,20 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .trend::after {
-    content: "";
     position: absolute;
+    content: "";
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
 }
 
 .trend-content {
     margin: auto 22px 16px;
     padding: 33px;
     border: 3px solid rgba(181, 159, 91, 0.6);
-    z-index: 2;
+    z-index: 1;
 }
 
 .trend-tags-list {
@@ -362,13 +344,12 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .trend-tag {
-    font-family: "Open Sans", Arial, sans-serif;
+    margin: 0 20px 3px 0;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     color: #b59f5b;
-    margin: 0 20px 3px 0;
 }
 
 .trend-tag:hover {
@@ -376,7 +357,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .trend-text {
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -397,8 +377,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .posts-container {
-    display: flex;
-    flex-direction: column;
     width: 66.5%
 }
 
@@ -417,11 +395,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
     margin-right: 30px;
 }
 
-.post-content {
-    display: flex;
-    flex-direction: column;
-}
-
 .post-tags-list {
     display: flex;
     flex-wrap: wrap;
@@ -430,7 +403,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .post-tag {
     margin: 0 18px 3px 0;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -445,7 +417,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 .post-title {
     display: block;
     margin-top: 5px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -463,16 +434,13 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .post-date {
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 12px;
-    font-weight: 400;
     line-height: 40px;
     color: #888888;
 }
 
 .post-author {
     margin-left: 10px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 40px;
@@ -481,11 +449,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .post-text {
     margin-top: 33px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
-    font-weight: 400;
     line-height: 22px;
-    text-align: left;
     color: #0f0d0e;
 }
 
@@ -496,17 +461,13 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 /* Sidebar */
 
 .sidebar-container {
-    display: flex;
-    flex-direction: column;
     box-sizing: border-box;
     width: 33.5%;
     padding-left: 121px;
 }
 
 .sidebar-title {
-    display: block;
     margin-top: -10px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 29px;
@@ -516,8 +477,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-title::after {
-    content: "";
     display: block;
+    content: "";
     width: 66px;
     margin: 5px auto 0;
     border-top: 3px solid rgba(181, 159, 91, 0.4);
@@ -526,14 +487,10 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 /* Sidebar latest posts*/
 
 .sidebar-latest-posts {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 60px;
 }
 
 .latest-posts-container {
-    display: flex;
-    flex-direction: column;
     margin-top: 29px;
 }
 
@@ -552,23 +509,16 @@ p, ul, h1, h2, h3, h4, h5, h6 {
     margin-right: 18px;
 }
 
-.latest-post-content {
-    display: flex;
-    flex-direction: column;
-}
-
 .latest-post-date {
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: #888888;
+    display: block;
     margin-top: -2px;
+    font-size: 12px;
+    color: #888888;
 }
 
 .latest-post-title {
     display: block;
     margin-top: 2px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
@@ -593,13 +543,12 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .search-field {
     flex: 1;
+    width: 100%;
     height: 48px;
     padding: 0 18px;
     border: none;
     background-color: #f4f7f6;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
     line-height: 40px;
     color: rgba(0, 0, 0, 0.54)
 }
@@ -612,13 +561,14 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 .search-button {
     width: 48px;
     height: 48px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
     background-color: #b59f5b;
     background-image: url(../svg/search.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 18px 18px;
-    border: none;
-    cursor: pointer;
 }
 
 .search-button:hover {
@@ -628,26 +578,22 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 /* Sidebar subscribe */
 
 .sidebar-subscribe {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 61px;
 }
 
 .subscribe-form {
-    display: flex;
-    flex-direction: column;
     margin-top: 24px;
 }
 
 .subscribe-field {
+    box-sizing: border-box;
+    width: 100%;
     height: 48px;
     padding: 0 18px;
     margin-bottom: 17px;
     border: none;
     background-color: #f4f7f6;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 13px;
-    font-weight: 400;
     line-height: 40px;
     color: rgba(0, 0, 0, 0.54)
 }
@@ -658,12 +604,12 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .subscribe-button {
+    width: 100%;
     height: 48px;
     padding: 0;
     background-color: #b59f5b;
     border: none;
     cursor: pointer;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 40px;
@@ -678,9 +624,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 /* Sidebar tags */
 
 .sidebar-tags {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 61px;
+    margin-bottom: 62px;
 }
 
 .sidebar-tags-list {
@@ -692,12 +636,11 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .sidebar-tag {
     display: flex;
-    align-items: center;
     box-sizing: border-box;
+    align-items: center;
     height: 30px;
     padding: 0 14px;
     border: 3px solid #eeeeee;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 40px;
@@ -712,15 +655,9 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 /* Sidebar categories */
 
-.sidebar-categories {
-    display: flex;
-    flex-direction: column;
-}
-
 .sidebar-categories-list {
+    margin-top: 10px;
     list-style-type: none;
-    padding: 0;
-    margin: 10px 0 0 0;
 }
 
 .sidebar-category {
@@ -729,10 +666,9 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-category-name {
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    line-height: 47px;
+    line-height: 45px;
     text-decoration: none;
     color: #000000;
 }
@@ -742,7 +678,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-category-count {
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     color: #b59f5b
@@ -751,9 +686,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 /* Shop */
 
 .container-shop {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 58px;
 }
 
@@ -779,17 +711,14 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .product-description {
-    display: flex;
-    flex-direction: column;
+    height: 100%;
     padding: 32px 20px 25px 20px;
     margin-top: -32px;
     border: 3px solid rgba(181, 159, 91, 0.6);
-    height: 100%;
 }
 
 .product-title {
     margin: 18px 0 3px 0;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -800,9 +729,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 .product-text {
     width: 300px;
     margin-bottom: 23px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 15px;
-    font-weight: 400;
     line-height: 22px;
     color: #0f0d0e;
 }
@@ -828,7 +755,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .price-old {
     margin-bottom: -6px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
@@ -839,7 +765,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .price-new {
     margin-bottom: 5px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -854,8 +779,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 /* Footer */
 
 .container-footer {
-    display: flex;
-    flex-direction: column;
     margin-top: 64px;
 }
 
@@ -888,7 +811,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
 .copyright {
     margin-bottom: 31px;
-    font-family: "Open Sans", Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 40px;
