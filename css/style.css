@@ -189,6 +189,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
+  border-radius: 0;
   background-color: #f4f7f6;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.54);
@@ -261,6 +262,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   -moz-appearance: none;
   resize: none;
   border: none;
+  border-radius: 0;
   background-color: #f4f7f6;
   font-size: 13px;
   line-height: 16px;
@@ -575,6 +577,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
+  border-radius: 0;
   background-color: #f4f7f6;
   font-size: 13px;
   line-height: 40px;
@@ -622,6 +625,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
+  border-radius: 0;
   background-color: #f4f7f6;
   font-size: 13px;
   line-height: 40px;
