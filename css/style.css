@@ -846,7 +846,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   }
 
   .container {
-    min-width: 330px;
+    min-width: 290px;
     padding: 0 15px;
   }
 
@@ -1087,10 +1087,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
   .trend:nth-child(n + 2) {
     margin-top: 3px;
-  }
-
-  .trend-content {
-    min-width: 252px;
   }
 }
 
