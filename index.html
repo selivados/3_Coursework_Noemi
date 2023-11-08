@@ -41,12 +41,15 @@
           </ul>
         </nav>
       </div>
-      <h1 class="header-title">Блог о творчестве, спорте, и образе жизни</h1>
+      <label for="toggle">
+        <h1 class="header-title">Блог о творчестве, спорте, и образе жизни</h1>
+      </label>
     </div>
   </header>
   <!-- /Header -->
   <!-- Popup -->
-  <div class="popup _hidden">
+  <input class="popup-toggle" type="checkbox" id="toggle">
+  <div class="popup">
     <div class="popup-container">
       <h2 class="feedback-title">Ваш фидбек</h2>
       <form class="feedback-form">
@@ -82,7 +85,7 @@
         </div>
         <button class="subscribe-button feedback-button" type="submit">Отправить</button>
       </form>
-      <button class="popup-close" aria-label="Закрыть"></button>
+      <label for="toggle" class="popup-close" aria-label="Закрыть"></label>
     </div>
   </div>
   <!-- /Popup -->

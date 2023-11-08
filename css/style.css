@@ -130,14 +130,19 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
+  cursor: pointer;
   z-index: 1;
 }
 
 /* Popup */
 
+.popup-toggle {
+  display: none;
+}
+
 .popup {
   position: fixed;
-  display: flex;
+  display: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -146,8 +151,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   z-index: 9999;
 }
 
-._hidden {
-  display: none;
+.popup-toggle:checked + .popup {
+  display: flex;
 }
 
 .popup-container {
