@@ -65,6 +65,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 .menu-logo {
   width: 179px;
   padding-left: 3px;
+  cursor: pointer;
 }
 
 .menu-button {
@@ -130,7 +131,6 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
-  cursor: pointer;
   z-index: 1;
 }
 
