@@ -638,7 +638,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   background-color: #f4f7f6;
   font-size: 13px;
   line-height: 40px;
-  color: rgba(0, 0, 0, 0.54)
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .subscribe-field:focus {
@@ -657,7 +657,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 40px;
   text-transform: uppercase;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .subscribe-button:hover {
@@ -717,13 +717,13 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-category-name:hover {
-  color: #b59f5b
+  color: #b59f5b;
 }
 
 .sidebar-category-count {
   font-size: 12px;
   font-weight: 700;
-  color: #b59f5b
+  color: #b59f5b;
 }
 
 /* Shop */
