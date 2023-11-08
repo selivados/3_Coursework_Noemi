@@ -77,8 +77,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .menu-button span {
-  height: 3px;
   width: 100%;
+  height: 3px;
   background-color: #ffffff;
 }
 
@@ -332,7 +332,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   flex-basis: calc(25% - 3px);
   min-height: 320px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -363,8 +363,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 }
 
 .trend-content {
-  margin: auto 22px 16px;
   padding: 33px;
+  margin: auto 22px 16px;
   border: 3px solid rgba(181, 159, 91, 0.6);
   z-index: 1;
 }
@@ -486,8 +486,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   color: #0f0d0e;
 }
 
-.post-text p {
-  margin-bottom: 11px;
+.post-text p:nth-child(n + 2) {
+  margin-top: 11px;
 }
 
 /* Sidebar */
@@ -601,7 +601,7 @@ p, ul, h1, h2, h3, h4, h5, h6 {
   background-color: #b59f5b;
   background-image: url(../svg/search.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: 18px 18px;
 }
 
@@ -951,8 +951,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
   .trend-content {
     width: 100%;
-    margin: auto 15px 16px;
     padding: 27px 21px 26px;
+    margin: auto 15px 16px;
   }
 
   .trend-text {
@@ -1003,8 +1003,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
   }
 
-  .post-text p {
-    margin-bottom: 5px;
+  .post-text p:nth-child(n + 2) {
+    margin-top: 5px;
   }
 
   /* Sidebar */
@@ -1212,8 +1212,8 @@ p, ul, h1, h2, h3, h4, h5, h6 {
 
   .trend-content {
     width: 100%;
-    margin: auto 19px 15px;
     padding: 32px 32px 28px;
+    margin: auto 19px 15px;
   }
 
   .trend-text {
