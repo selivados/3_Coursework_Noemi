@@ -1,4 +1,4 @@
-Готовая вёрстка сайта [Noemi](https://freelandos.github.io/3_Coursework_Noemi/).
+Готовая вёрстка сайта [Noemi](https://selivados.github.io/3_Coursework_Noemi/).
 
 # Курсовой проект курса «HTML и CSS: основы веб-верстки»
 
@@ -39,7 +39,7 @@
 
 1. PSD-макеты в папке [.task/sources/psd](./task/sources/psd)
 2. JPG версии макетов для быстрого просмотра в папке [./task/sources/preview](./task/sources/preview/)
-3. Фоновые и контентные изображения в [./task/sources/img](./task/sources/img/)
+3. Фоновые и контентные изображения в папке [./task/sources/img](./task/sources/img/)
 4. Файлы шрифтов в папке [./task/sources/fonts](./task/sources/fonts/)
 5. SVG-иконки в папке [./task/sources/svg](./task/sources/svg/)
 

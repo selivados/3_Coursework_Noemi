@@ -2,7 +2,7 @@
 
 ## Задание
 
-1. Сверстать макет планшетной версии сайта [./sources/psd/NOEMI_mq_tablet.psd](./sources/psd/NOEMI_mq_desktop.psd)
+1. Сверстать макет планшетной версии сайта [./sources/psd/NOEMI_mq_tablet.psd](./sources/psd/NOEMI_mq_tablet.psd)
    в соответствии с требованиями ниже
 2. Сверстать макет мобильной версии сайта [./sources/psd/NOEMI_mq_mobile.psd](./sources/psd/NOEMI_mq_mobile.psd)
    в соответствии с требованиями ниже
